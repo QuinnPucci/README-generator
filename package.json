@@ -1,22 +1,31 @@
 {
-  "name": "static-site",
+  "name": "readme-generator",
   "version": "1.0.0",
-  "description": "uses Node.js file system and inquirer to create a README through command line prompts",
+  "description": "uses inquirer and fs system to generate a README file through command line prompts",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "inquirer": "^6.3.1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/QuinnPucci/README-generator.git"
   },
+  "keywords": [
+    "Node.js",
+    "js",
+    "node",
+    "inquirer",
+    "README",
+    ".md",
+    "generator"
+  ],
+  "author": "Quinn Pucci",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/QuinnPucci/README-generator/issues"
   },
-  "homepage": "https://github.com/QuinnPucci/README-generator#readme"
+  "homepage": "https://github.com/QuinnPucci/README-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
 }

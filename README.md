@@ -23,7 +23,7 @@
   Quinn Pucci
   
   ## Tests
-  To test this application, run the node index command in the terminal, fill out the prompts, and check dist directory for a README.md
+  To test this application, run the node index command in the terminal, fill out the prompts, and check dist directory for a README.md (this README was made using the app!)
   
   ## Questions
   My Github: [QuinnPucci](https://github.com/QuinnPucci)

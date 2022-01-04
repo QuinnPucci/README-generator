@@ -17,7 +17,8 @@
   To install, first the repository must be cloned locally, then the terminal must be accessed from the local directory and the command to start it is node index. (requires node.js)
   
   ## Usage
-  To easily generate a professional, styled README.md
+  To easily generate a professional, styled README.md.
+  Video demonstration: https://drive.google.com/file/d/1p-D8PESJxnJtaMcWvKodoglkxNDPri9x/view
   
   ## Contributors
   Quinn Pucci

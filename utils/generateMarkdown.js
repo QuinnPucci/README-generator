@@ -21,7 +21,7 @@ function renderLicenseSection(license) {
   if (license == 'None') {
     return ''
   } else {
-    return '# License'
+    return '## License'
   }
 }
 
@@ -29,14 +29,37 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
-
-  # Description
-
-  # Instructions
-
-  # Installation
-
+  ## Table of Contents
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributors](#contributors)
+  - [Tests](#tests)
+  - [Questions](#questions)
+  
+  ## Description
+  ${data.description}
+  
+  ## Installation
+  ${data.installation}
+  
+  ## Usage
+  ${data.usage}
+  
+  ## License
   ${renderLicenseSection(data.license)}
+  
+  ## Contributors
+  ${data.contributors}
+  
+  ## Tests
+  ${data.tests}
+  
+  ## Questions
+  My Github: [${data.username}](https://github.com/${data.username})
+  </br>
+📧You can email me to ask any questions, or inquire about collaboration: ${data.email}
 `;
 }
 
